@@ -14,4 +14,8 @@ import renderer from 'react-test-renderer';
 
 it('renders correctly', () => {
   renderer.create(<App />);
+
 });
+
+// Path: __tests__/App.test.tsx
+// Compare this snippet from App.test.tsx:
