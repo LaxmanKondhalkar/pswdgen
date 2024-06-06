@@ -1,79 +1,52 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# PSWDGen - Password Generator
 
-# Getting Started
+PSWDGen is an Android app designed to help you generate strong, random passwords according to your preferences. Whether you need a simple password or a complex one with various character sets, PSWDGen has you covered.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Features
 
-## Step 1: Start the Metro Server
+- **Customizable Password Length:** Set the desired length of your password.
+- **Character Sets:** Choose which character sets to include in your password:
+  - Uppercase letters (A-Z)
+  - Lowercase letters (a-z)
+  - Numbers (0-9)
+  - Special characters (!@#$%^&* etc.)
+- **Easy to Use Interface:** Simple and intuitive design for effortless password generation.
+- **Copy to Clipboard:** Quickly copy the generated password to your clipboard with one tap.
+- **Secure:** Generates strong, unpredictable passwords to enhance your security.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Installation
 
-To start Metro, run the following command from the _root_ of your React Native project:
+To install PSWDGen on your Android device:
 
-```bash
-# using npm
-npm start
+1. Download the latest APK release from the [Releases](https://github.com/laxmankondhalkar/pswdgen/releases) page.
+2. Open the APK file and follow the instructions to install the app.
 
-# OR using Yarn
-yarn start
-```
+## Usage
 
-## Step 2: Start your Application
+1. Open the PSWDGen app.
+2. Set your desired password length using the slider.
+3. Select the character sets you want to include in your password (uppercase, lowercase, numbers, special characters).
+4. Tap the "Generate Password" button.
+5. Your new password will be displayed on the screen. Tap the "Copy" button to copy it to your clipboard.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+## Contributing
 
-### For Android
+Contributions are welcome! If you have any suggestions, find a bug, or want to contribute to the code, please feel free to open an issue or submit a pull request.
 
-```bash
-# using npm
-npm run android
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Open a pull request
 
-# OR using Yarn
-yarn android
-```
+## License
 
-### For iOS
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-```bash
-# using npm
-npm run ios
+## Contact
 
-# OR using Yarn
-yarn ios
-```
+If you have any questions or feedback, please reach out to me at [lkondhalkar@gmail.com](mailto:lkondhalkar@gmail.com).
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+---
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
 
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
